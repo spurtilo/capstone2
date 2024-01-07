@@ -1,9 +1,11 @@
 html {
     font-size: 50px;
+    height: 100%;
 }
 
 body {
     background-color: #04142b;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -54,11 +56,9 @@ li {
 li::before {
     content: '■';
     position: absolute;
-    left: -0.8rem;          /* Adjust this value so that it appears where you want. */
-    font-size: 0.5rem;      /* Adjust this value so that it appears what size you want. */
+    left: -0.8rem;
+    font-size: 0.5rem; 
 }
-
-/* IMAGES */
 
 .my-photo {
     height: 4rem;
@@ -78,8 +78,6 @@ li::before {
     height: 9rem;
     width: 9rem;
 }
-
-/* IMAGES */
 
 .hero-flex-container {
     display: flex;
